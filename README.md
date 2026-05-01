@@ -92,6 +92,7 @@ def plot_results(stats, title):
     # Now work on the extra credit
     #okay
     for word, count in stats:
+        count = count * "█" 
         print(f"{word}: {count}")
     
 # -----------------------------
